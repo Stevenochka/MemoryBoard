@@ -1,0 +1,54 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #14171c;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.board {
+  padding: 40px;
+}
+
+.goal-list {
+  display: flex;
+  gap: 20px;
+}
+
+.goal-card {
+  width: 260px;
+  padding: 20px;
+  background-color: #252a33;
+  border: 1px solid #3c4450;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.goal-card h3 {
+  margin-top: 0;
+}
+
+.goal-card p {
+  color: #aeb7c2;
+}
+
+.goal-card img {
+  width: 100%; /* Изображение занимает всю ширину внутренней области карточки */
+  height: 150px;
+  object-fit: cover;  /* Заполняет заданную область с сохранением пропорций, обрезая лишнее */
+  border-radius: 8px;
+}
+
+.razdel {
+  display: flex;
+  gap: 120px;
+}
+
+.razdel button {
+  border-radius: 8px;
+  width: 160px;
+}
